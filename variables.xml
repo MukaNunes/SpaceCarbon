@@ -1,0 +1,19 @@
+<theme>
+    <variables>
+        <bigFontSize>0.035</bigFontSize>
+        <mainFontSize>0.025</mainFontSize>
+        <smallFontSize>0.019</smallFontSize>
+        <mainFont>./0resources/mainFont.ttf</mainFont>
+        <bgPath>./0resources/bg.jpg</bgPath>
+        <tvFramePath>./0resources/frame.svg</tvFramePath>
+        <marqueePath>./0resources/quasar.svg</marqueePath>
+        <noisePath>./0resources/noise.png</noisePath>
+        <noiseVideo>./0resources/noise.mp4</noiseVideo>
+        <gameFramePath>./0resources/info.svg</gameFramePath>
+        <ratingFilled>./0resources/rating_filled.svg</ratingFilled>
+        <ratingUnfilled>./0resources/rating_empty.svg</ratingUnfilled>
+        <systemControllerImage>./${system.theme}/controller.svg</systemControllerImage>
+        <systemLogo>./${system.theme}/system.svg</systemLogo>
+        <systemLogoColor>./${system.theme}/system_color.svg</systemLogoColor>
+    </variables>
+</theme>

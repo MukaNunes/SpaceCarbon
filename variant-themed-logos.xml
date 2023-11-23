@@ -1,0 +1,17 @@
+<theme>
+    <variant name="colored-logos">
+        <view name="system, gamelist">
+            <image name="systemLogo">
+                <path>${systemLogoColor}</path>
+                <color>${accentColor}</color>
+            </image>
+        </view>
+        
+        <view name="system">
+            <carousel name="systemCarousel">
+                <staticImage>${systemLogoColor}</staticImage>
+                <imageColor>${accentColor}</imageColor>
+            </carousel>
+        </view>
+    </variant>
+</theme>
