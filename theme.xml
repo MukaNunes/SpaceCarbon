@@ -46,6 +46,7 @@
                 <size>1 1</size>
                 <path>${bgPath}</path>
                 <tile>false</tile>
+                <stationary>withinView</stationary>
                 <zIndex>0</zIndex>
             </image>
 
