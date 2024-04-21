@@ -13,5 +13,11 @@
                 <imageColor>${accentColor}</imageColor>
             </carousel>
         </view>
+        
+        <view name="gamelist">
+            <image name="marqueeImage">
+                <color>${accentColor}</color>
+            </image>
+        </view>
     </variant>
 </theme>

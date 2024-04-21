@@ -48,6 +48,12 @@
                 <tile>false</tile>
                 <stationary>withinView</stationary>
                 <zIndex>0</zIndex>
+                <brightness>0</brightness>
+                <saturation>0</saturation>
+                <color>${bgAccentColor1}</color>
+                <colorEnd>${bgAccentColor2}</colorEnd>
+                <gradientType>horizontal</gradientType>
+                <interpolation>linear</interpolation>
             </image>
 
             <image name="systemLogo">
@@ -119,7 +125,7 @@
                 <delay>0</delay>
                 <audio>true</audio>
                 <scrollFadeIn>false</scrollFadeIn>
-                <!-- <default>${noiseVideo}</default> -->
+                <default>${noiseVideo}</default>
             </video>
 
             <rating name="rating">
@@ -140,14 +146,15 @@
                 <color>${accentColor}</color>
             </gamelistinfo>
 
-            <!-- <image name="gameFramePath">
-                    <path>${gameFramePath}</path>
-                    <size>0.58 0.34</size>
-                    <pos>0.40 0.62</pos>
-                    <zIndex>75</zIndex>
-                    <color>${accentColor}</color>
-                    <interpolation>linear</interpolation>
-                </image> -->
+            <image name="gameFramePath">
+                <path>${gameFramePath}</path>
+                <size>0.58 0.34</size>
+                <pos>0.40 0.62</pos>
+                <zIndex>75</zIndex>
+                <color>${textColor}</color>
+                <opacity>.05</opacity>
+                <interpolation>linear</interpolation>
+            </image>
 
             <image name="marqueeImage">
                 <zIndex>99</zIndex>
