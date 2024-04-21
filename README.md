@@ -1,9 +1,9 @@
 # SpaceCarbon
 ### Work in Progress
 
-<img src="./screenshot.png" alt="screenshot1" width="1000">
+<img src="./screenshot1.png" alt="screenshot1" width="1000">
 
-<img src="./screenshot.png" alt="screenshot2" width="1000">
+<img src="./screenshot2.png" alt="screenshot2" width="1000">
 
 Theme for [EmulationStation Desktop Edition](https://es-de.org/) based on the [es-theme-carbon](https://github.com/RetroPie/es-theme-carbon).
 
