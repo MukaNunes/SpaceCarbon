@@ -1,0 +1,81 @@
+<theme>
+    <colorScheme name="red">
+        <variables>
+            <bgColor>00000000</bgColor>
+            <textColor>FFFFFFFF</textColor>
+            <accentColor>FF0000FF</accentColor>
+            <bgAccentColor1>5B4DFF88</bgAccentColor1>
+            <bgAccentColor2>FF0000FF</bgAccentColor2>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="orange">
+        <variables>
+            <bgColor>00000000</bgColor>
+            <textColor>FFFFFFFF</textColor>
+            <accentColor>FF5700FF</accentColor>
+            <bgAccentColor1>FF000088</bgAccentColor1>
+            <bgAccentColor2>FF0080FF</bgAccentColor2>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="lime">
+        <variables>
+            <bgColor>00000000</bgColor>
+            <textColor>FFFFFFFF</textColor>
+            <accentColor>EAFF00FF</accentColor>
+            <bgAccentColor1>00E4FA55</bgAccentColor1>
+            <bgAccentColor2>FFCC00FF</bgAccentColor2>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="green">
+        <variables>
+            <bgColor>00000000</bgColor>
+            <textColor>FFFFFFFF</textColor>
+            <accentColor>69FF00FF</accentColor>
+            <bgAccentColor1>0096FAFF</bgAccentColor1>
+            <bgAccentColor2>FADF00FF</bgAccentColor2>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="cyan">
+        <variables>
+            <bgColor>00000000</bgColor>
+            <textColor>FFFFFFFF</textColor>
+            <accentColor>00FFDCFF</accentColor>
+            <bgAccentColor1>0096FAFF</bgAccentColor1>
+            <bgAccentColor2>FADF00FF</bgAccentColor2>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="blue">
+        <variables>
+            <bgColor>00000000</bgColor>
+            <textColor>FFFFFFFF</textColor>
+            <accentColor>0089FFFF</accentColor>
+            <bgAccentColor1>8900FAFF</bgAccentColor1>
+            <bgAccentColor2>00A2FAFF</bgAccentColor2>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="purple">
+        <variables>
+            <bgColor>00000000</bgColor>
+            <textColor>FFFFFFFF</textColor>
+            <accentColor>CD00FFFF</accentColor>
+            <bgAccentColor1>8900FAFF</bgAccentColor1>
+            <bgAccentColor2>00A2FAFF</bgAccentColor2>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="pink">
+        <variables>
+            <bgColor>00000000</bgColor>
+            <textColor>FFFFFFFF</textColor>
+            <accentColor>FF0083FF</accentColor>
+            <bgAccentColor1>5B4DFF88</bgAccentColor1>
+            <bgAccentColor2>FF0080FF</bgAccentColor2>
+        </variables>
+    </colorScheme>
+</theme>

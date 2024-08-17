@@ -1,0 +1,73 @@
+<themeCapabilities>
+    <themeName>Space Carbon</themeName>
+
+    <colorScheme name="red">
+        <label>Red</label>
+    </colorScheme>
+
+    <colorScheme name="orange">
+        <label>Orange</label>
+    </colorScheme>
+
+    <colorScheme name="lime">
+        <label>Lime</label>
+    </colorScheme>
+
+    <colorScheme name="green">
+        <label>Green</label>
+    </colorScheme>
+
+    <colorScheme name="cyan">
+        <label>Cyan</label>
+    </colorScheme>
+
+    <colorScheme name="blue">
+        <label>Blue</label>
+    </colorScheme>
+
+    <colorScheme name="purple">
+        <label>Purple</label>
+    </colorScheme>
+
+    <colorScheme name="pink">
+        <label>Pink</label>
+    </colorScheme>
+
+    <transitions name="slide">
+        <label>Slide</label>
+        <selectable>true</selectable>
+        <systemToSystem>slide</systemToSystem>
+        <systemToGamelist>slide</systemToGamelist>
+        <gamelistToGamelist>slide</gamelistToGamelist>
+        <gamelistToSystem>slide</gamelistToSystem>
+    </transitions>
+
+    <transitions name="instant">
+        <label>Instant</label>
+        <selectable>true</selectable>
+        <systemToSystem>instant</systemToSystem>
+        <systemToGamelist>slide</systemToGamelist>
+        <gamelistToGamelist>slide</gamelistToGamelist>
+        <gamelistToSystem>slide</gamelistToSystem>
+    </transitions>
+
+    <variant name="normal-carousel">
+        <label>Carousel</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="normal-grid">
+        <label>Grid</label>
+        <selectable>true</selectable>
+    </variant>
+    
+    <variant name="colored-carousel">
+        <label>Tinted Carousel</label>
+        <selectable>true</selectable>
+    </variant>
+    
+    <variant name="colored-grid">
+        <label>Tinted Grid</label>
+        <selectable>true</selectable>
+    </variant>
+</themeCapabilities>

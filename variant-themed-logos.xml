@@ -1,0 +1,34 @@
+<theme>
+    <variant name="colored-carousel, colored-grid">
+        <view name="system, gamelist">
+            <image name="systemLogo">
+                <path>${systemLogoColor}</path>
+                <color>${accentColor}</color>
+            </image>
+        </view>
+        
+        <view name="gamelist">
+            <image name="marqueeImage">
+                <color>${accentColor}</color>
+            </image>
+        </view>
+    </variant>
+    
+    <variant name="colored-carousel">
+        <view name="system">
+            <carousel name="systemSelector">
+                <staticImage>${systemLogoColor}</staticImage>
+                <imageColor>${accentColor}</imageColor>
+            </carousel>
+        </view>
+    </variant>
+    
+    <variant name="colored-grid">
+        <view name="system">
+            <grid name="systemSelector">
+                <staticImage>${systemLogoColor}</staticImage>
+                <imageColor>${accentColor}</imageColor>
+            </grid>
+        </view>
+    </variant>
+</theme>

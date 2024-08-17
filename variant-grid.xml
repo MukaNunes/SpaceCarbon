@@ -1,0 +1,42 @@
+<theme>
+    <variant name="normal-grid, colored-grid">
+        <view name="system">
+            <image name="controller">
+                <pos>0.98 0.75</pos>
+                <maxSize>0.4 0.4</maxSize>
+                <origin>1 0.5</origin>
+            </image>
+
+            <text name="gameCounter">
+                <pos>0.01 0.96</pos>
+                <origin>0 1</origin>
+                <horizontalAlignment>left</horizontalAlignment>
+            </text>
+
+            <grid name="systemSelector">
+                <pos>0.5 0.015</pos>
+                <origin>0.5 0</origin>
+                <size>0.98 0.5</size>
+                <itemSize>0.105 0.105</itemSize>
+                <itemScale>1.20</itemScale>
+                <itemSpacing>0.016 0.016</itemSpacing>
+                <staticImage>${systemLogo}</staticImage>
+                <zIndex>75</zIndex>
+                <backgroundImage>${bgGridPath}</backgroundImage>
+                <selectorImage>${bgGridSelectedPath}</selectorImage>
+                <selectorColor>${accentColor}</selectorColor>
+                <selectorRelativeScale>1</selectorRelativeScale>
+                <backgroundRelativeScale>1</backgroundRelativeScale>
+                <imageRelativeScale>.9</imageRelativeScale>
+            </grid>
+        </view>
+
+        <view name="system">
+            <image name="systemLogo">
+                <origin>0 0.5</origin>
+                <pos>0.015 0.75</pos>
+                <maxSize>0.4 0.2</maxSize>
+            </image>
+        </view>
+    </variant>
+</theme>

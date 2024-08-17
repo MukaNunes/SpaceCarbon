@@ -1,0 +1,23 @@
+<theme>
+    <variables>
+        <bigFontSize>0.035</bigFontSize>
+        <mainFontSize>0.025</mainFontSize>
+        <smallFontSize>0.019</smallFontSize>
+        <mainFont>./assets/mainFont.ttf</mainFont>
+        <bgPath>./assets/bg.jpg</bgPath>
+        <bgPathFade>./assets/bg-fade.svg</bgPathFade>
+        <bgGridPath>./assets/bg-grid.svg</bgGridPath>
+        <bgGridSelectedPath>./assets/bg-grid-selected.svg</bgGridSelectedPath>
+        <tvFramePath>./assets/frame.svg</tvFramePath>
+        <marqueePath>./assets/nomarquee.svg</marqueePath>
+        <noisePath>./assets/noise.png</noisePath>
+        <noiseVideo>./assets/noise.mp4</noiseVideo>
+        <gameFramePath>./assets/info.svg</gameFramePath>
+        <ratingFilled>./assets/rating_filled.svg</ratingFilled>
+        <ratingUnfilled>./assets/rating_empty.svg</ratingUnfilled>
+        <systemControllerImage>./systems/${system.theme}/controller.svg</systemControllerImage>
+        <systemLogo>./systems/${system.theme}/system.svg</systemLogo>
+        <systemLogoColor>./systems/${system.theme}/system_color.svg</systemLogoColor>
+        <systemBg>./systems/${system.theme}/wallpaper.jpg</systemBg>
+    </variables>
+</theme>
