@@ -60,12 +60,12 @@
         <label>Grid</label>
         <selectable>true</selectable>
     </variant>
-    
+
     <variant name="colored-carousel">
         <label>Tinted Carousel</label>
         <selectable>true</selectable>
     </variant>
-    
+
     <variant name="colored-grid">
         <label>Tinted Grid</label>
         <selectable>true</selectable>

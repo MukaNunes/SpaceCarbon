@@ -6,14 +6,14 @@
                 <color>${accentColor}</color>
             </image>
         </view>
-        
+
         <view name="gamelist">
             <image name="marqueeImage">
                 <color>${accentColor}</color>
             </image>
         </view>
     </variant>
-    
+
     <variant name="colored-carousel">
         <view name="system">
             <carousel name="systemSelector">
@@ -22,7 +22,7 @@
             </carousel>
         </view>
     </variant>
-    
+
     <variant name="colored-grid">
         <view name="system">
             <grid name="systemSelector">

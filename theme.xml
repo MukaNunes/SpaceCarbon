@@ -11,7 +11,7 @@
                 <color>${accentColor}</color>
                 <zIndex>10</zIndex>
             </image>
-            
+
             <text name="gameCounter">
                 <systemdata>gamecount</systemdata>
                 <fontPath>${mainFont}</fontPath>
@@ -45,6 +45,16 @@
                 <pos>0.40 0.037</pos>
                 <zIndex>75</zIndex>
                 <color>${accentColor}</color>
+                <interpolation>linear</interpolation>
+            </image>
+
+            <image name="gameImage">
+                <default>${noisePath}</default>
+                <imageType>image</imageType>
+                <origin>0 0</origin>
+                <pos>0.439 0.095</pos>
+                <size>0.4 0.46</size>
+                <zIndex>60</zIndex>
                 <interpolation>linear</interpolation>
             </image>
 
@@ -212,7 +222,7 @@
                 <gradientType>horizontal</gradientType>
                 <interpolation>linear</interpolation>
             </image>
-            
+
             <image name="backgroundFade">
                 <pos>0 0</pos>
                 <size>1 1</size>
@@ -236,17 +246,17 @@
             </helpsystem>
         </view>
     </variant>
-    
+
     <!-- CAROUSEL VARIATION -->
     <variant name="normal-carousel, colored-carousel">
         <include>./variant-carousel.xml</include>
     </variant>
-    
+
     <!-- GRID VARIATION -->
     <variant name="normal-grid, colored-grid">
         <include>./variant-grid.xml</include>
     </variant>
-    
+
     <!-- COLOR VARIATION -->
     <variant name="colored-carousel, colored-grid">
         <include>./variant-themed-logos.xml</include>
