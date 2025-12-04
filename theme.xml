@@ -215,8 +215,7 @@
                 <tile>false</tile>
                 <stationary>withinView</stationary>
                 <zIndex>0</zIndex>
-                <brightness>0</brightness>
-                <saturation>0</saturation>
+                <brightness>1</brightness>
                 <color>${bgAccentColor1}</color>
                 <colorEnd>${bgAccentColor2}</colorEnd>
                 <gradientType>horizontal</gradientType>
@@ -242,7 +241,7 @@
                 <textColor>${accentColor}</textColor>
                 <iconColor>${accentColor}</iconColor>
                 <origin>0 1</origin>
-                <pos>0 1</pos>
+                <pos>0.014 0.99</pos>
             </helpsystem>
         </view>
     </variant>
